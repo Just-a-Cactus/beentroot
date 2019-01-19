@@ -1,0 +1,80 @@
+.ba-main {
+    background: rgb(0, 173, 155) url(../img/main-bg.jpg) 0 0 repeat;
+    background-size: cover;
+    animation: animate_background 20s linear 0s infinite;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @keyframes animate_background {
+        from {
+            background-position: 0 0;
+        }
+
+        to {
+            background-position: -2725px -2725px;
+        }
+    }
+}
+
+.ba-main-menu {
+    padding: 30px;
+    text-shadow: 0 0 10px black;
+    text-transform: uppercase;
+    text-align: center;
+
+    h1 {
+        font-size: 120px;
+        margin: 0;
+        color: rgb(137, 0, 32);
+    }
+
+    p {
+        font-size: 35px;
+        color: rgb(21, 143, 0);
+        padding-bottom: 80px;
+    }
+}
+
+.ba-main-menu-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+
+    &__item {
+        width: 445px;
+        height: 127px;
+        line-height: 127px;
+        margin-bottom: 78px;
+        text-shadow: 0 0 10px black;
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            box-shadow: 0 0 15px black;
+
+            color: rgb(255, 216, 0);
+        }
+
+        &--html {
+            background: rgb(90, 27, 102) url(../../img/button_1.jpg) 0 0 no-repeat;
+        }
+
+        &--css {
+            background: rgb(8, 81, 55) url(../../img/button_2.jpg) 0 0 no-repeat;
+        }
+
+        &--js {
+            background: rgb(17, 43, 147) url(../../img/button_3.jpg) 0 0 no-repeat;
+        }
+
+        &--hm {
+            background: rgb(142, 0, 35) url(../../img/button_4.jpg) 0 0 no-repeat;
+        }
+    }
+}

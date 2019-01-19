@@ -1,0 +1,22 @@
+[
+    [{
+            "question": "Property that change color of background:",
+            "correctAnswer": "background-color"
+        },
+        {
+            "question": "sky",
+            "correctAnswer": "blue"
+        },
+        {
+            "question": "milk",
+            "correctAnswer": "white"
+        },
+        {
+            "question": "grass",
+            "correctAnswer": "green"
+        }
+    ],
+    [
+        "red", "white", "blue", "green", "yellow"
+    ]
+]
